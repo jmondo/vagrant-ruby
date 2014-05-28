@@ -9,7 +9,7 @@ apt-get -y update
 # libqt4-dev libqtwebkit-dev are for capybara-webkit
 # libpq-dev is for postgres
 
-apt-get -y install curl git-core nodejs build-essential libqt4-dev libqtwebkit-dev postgresql libpq-dev
+apt-get -y install curl git-core nodejs build-essential libqt4-dev libqtwebkit-dev postgresql postgresql-contrib libpq-dev
 
 # setup postgres
 sudo pg_dropcluster --stop 9.1 main
