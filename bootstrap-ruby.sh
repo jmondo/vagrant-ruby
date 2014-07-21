@@ -1,5 +1,6 @@
 # install rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+echo 'export DISPLAY=localhost:1.0' >> ~/.bash_profile
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
